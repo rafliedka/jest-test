@@ -1,6 +1,6 @@
-const fetchData = require("../src/fetchData")
+const fetchData = require("../../src/fetchData")
 
-test(`the data is peanut butter`, () => {
+test.only(`the data is peanut butter`, () => {
     return expect(fetchData(false)).resolves.toBe('peanut butter');
 });
 

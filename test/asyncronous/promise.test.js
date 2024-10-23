@@ -1,4 +1,4 @@
-const fetchData = require('../src/fetchData');
+const fetchData = require('../../src/fetchData');
 
 test('the data is peanut butter', () => {
     return fetchData().then(data => {

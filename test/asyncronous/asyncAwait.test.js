@@ -1,4 +1,4 @@
-const fetchData = require('../src/fetchData');
+const fetchData = require('../../src/fetchData');
 
 test(`the data is peanut butter`, async () => {
     const data = await fetchData(false); // Pass false to succeed
